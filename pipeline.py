@@ -5,7 +5,6 @@ from torchaudio.utils import download_asset
 import torchaudio
 import os
 
-#SAMPLE_WAV_SPEECH_PATH = download_asset('chinese-style-guitar-melody_128bpm_G_minor.wav')
 
 
 def _get_sample(path, resample=None):
@@ -60,5 +59,6 @@ def plot_spectrogram(spec, title=None, ylabel="freq_bin", aspect="auto", xmax=No
 
 def main():
     get_spectrogram()
+    
 if __name__ == "__main__":
     main()
